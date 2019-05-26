@@ -1,2 +1,7 @@
-## ODVV's Blog
-This is a blog test
+---
+layout: home
+---
+
+# welcome
+
+Nice to meet you.
