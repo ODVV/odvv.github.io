@@ -29,7 +29,7 @@ Chapter 1, Chapter 2, Chapter 4, Chapter 11.
 
 * 参数法/半参数法
 
-在参数法密度估计中，实际应用时在已知先验知识 $p(\boldsymbol{\omega}_i)$ ，但往往密度函数 $p(\boldsymbol{x} \vert\boldsymbol{\omega}_i )$ 无法完全知晓。因此需要通过估计类条件密度函数再利用Bayes规则来构造判别规则。途径是假定密度函数是一个简单的参数模型，使用数据集估计该模型的参数。
+在参数法密度估计中，实际应用时在已知先验知识 $$p(\boldsymbol{\omega}_i)$$ ，但往往密度函数 $$p(\boldsymbol{x} \vert\boldsymbol{\omega}_i )$$ 无法完全知晓。因此需要通过估计类条件密度函数再利用Bayes规则来构造判别规则。途径是假定密度函数是一个简单的参数模型，使用数据集估计该模型的参数。
 
 最常见和广泛的模型选择为高斯模型:
 
@@ -39,11 +39,8 @@ $$p(x|\mu ,\sigma^2)=N(x;\mu ,\sigma^2)={\frac  {1}{{\sqrt  {2\pi \sigma ^{2}}}}
 
 $$p(\boldsymbol{x}|\boldsymbol{\mu} ,\boldsymbol{\Sigma})=N(\boldsymbol{x};\boldsymbol{\mu} ,\boldsymbol{\Sigma})={\frac{1}{(2\pi)^{d/2} |\boldsymbol{\Sigma_j}|^{1/2}}} exp[{-{\frac{1}{2}(x-\boldsymbol{\mu} )^T {\boldsymbol{\Sigma}^{-1}}(x-\boldsymbol{\mu})}}]$$
 
-$$
-p(\boldsymbol{x}|\boldsymbol{\mu} ,\boldsymbol{\Sigma})=N(\boldsymbol{x};\boldsymbol{\mu} ,\boldsymbol{\Sigma})={\frac{1}{(2\pi)^{d/2} |\boldsymbol{\Sigma_j}|^{1/2}}} exp[{-{\frac{1}{2}(x-\boldsymbol{\mu} )^T {\boldsymbol{\Sigma}^{-1}}(x-\boldsymbol{\mu})}}]
-$$
 
-插入估计，将均值（$\boldsymbol{\mu}$）和协方差矩阵（$\boldsymbol{\Sigma}$）的估计带入判别函数，可得到高斯分类器从而对数据进行分类。在协方差矩阵估计为奇异矩阵时，可采用朴素贝叶斯、线性判别函数、投影子空间等方法来解决。
+插入估计，将均值（$$\boldsymbol{\mu}$$）和协方差矩阵（$$\boldsymbol{\Sigma}$$）的估计带入判别函数，可得到高斯分类器从而对数据进行分类。在协方差矩阵估计为奇异矩阵时，可采用朴素贝叶斯、线性判别函数、投影子空间等方法来解决。
 
 对于非高斯模型使用有限混合模型的方法来进行模拟，其分布形式如下，使用期望最大化算法进行参数估计。
 
@@ -70,11 +67,11 @@ $$p(\boldsymbol{x})=\sum_{j=1}^g \pi_j p(\boldsymbol{x};\boldsymbol{\theta}_j)$$
 
 在《统计模式识别》中，Webb将模式识别的主题归纳为“分类”，因此，模式识别的问题就是分类问题。
 
-对每个样本 $\boldsymbol{x}$ 而言，其“模式”可以理解为描述该样本的各个参数 $(x_1,x_2,\dots,x_n)$的特征。对于每个属于$\boldsymbol{\omega}_i$类的样本$\boldsymbol{x}$ ，其“模式”（各参数）应符合一对应的特征。
+对每个样本 $$\boldsymbol{x}$$ 而言，其“模式”可以理解为描述该样本的各个参数 $$(x_1,x_2,\dots,x_n)$$的特征。对于每个属于$$\boldsymbol{\omega}_i$$类的样本$$\boldsymbol{x}$$ ，其“模式”（各参数）应符合一对应的特征。
 
-有监督分类问题就可以表示为，已知每种参数特征以及其所对应的每一类 $\boldsymbol{\omega}_i$，$ i \in \left{1,\dots ,C\right}$；无监督分类问题就是将具有相同参数特征样本划分到同一类。
+有监督分类问题就可以表示为，已知每种参数特征以及其所对应的每一类 $$\boldsymbol{\omega}_i$$，$$ i \in \left{1,\dots ,C\right}$$；无监督分类问题就是将具有相同参数特征样本划分到同一类。
 
-基于密度的生成模型，通过估计数据集样本的每个参数$(x_1,x_2,\dots,x_n)$ 的分布来构造分类模型，对新样本从概率角度判断每个参数所属的分布，从而完成对新样本的分类。判别模型可以将数据集视为在n维空间的点，在n维空间中，根据各个数据点的空间分布，利用超平面（决策边界）对不同类进行切分。新的样本点在n维空间中的位置，依据超平面划分的区域进行分类。
+基于密度的生成模型，通过估计数据集样本的每个参数$$(x_1,x_2,\dots,x_n)$$ 的分布来构造分类模型，对新样本从概率角度判断每个参数所属的分布，从而完成对新样本的分类。判别模型可以将数据集视为在n维空间的点，在n维空间中，根据各个数据点的空间分布，利用超平面（决策边界）对不同类进行切分。新的样本点在n维空间中的位置，依据超平面划分的区域进行分类。
 
 无监督分类的方法中，谱聚类作为基于图论的方法，如下图所示，在参数的空间中各样本按照空间位置划分类。
 
