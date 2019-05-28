@@ -37,7 +37,7 @@ $$p(x|\mu ,\sigma^2)=N(x;\mu ,\sigma^2)={\frac  {1}{{\sqrt  {2\pi \sigma ^{2}}}}
 
 多元正态高斯分布为：
 
-$$p(\boldsymbol{x}|\boldsymbol{\mu} ,\boldsymbol{\Sigma})=N(\boldsymbol{x};\boldsymbol{\mu} ,\boldsymbol{\Sigma})={\frac  {1}{{ {(2\pi)^{d/2} |\boldsymbol{\Sigma_j}| ^{1/2}}}}}\,exp[{-{\frac{1}{2}  (x-\boldsymbol{\mu} )^T {\boldsymbol{\Sigma} ^{-1}}(x-\boldsymbol{\mu} )}}]$$
+$$p(\boldsymbol{x}|\boldsymbol{\mu} ,\boldsymbol{\Sigma})=N(\boldsymbol{x};\boldsymbol{\mu} ,\boldsymbol{\Sigma})={\frac{1}{{{(2\pi)^{d/2} |\boldsymbol{\Sigma_j}|^{1/2}}}}}\,exp[{-{\frac{1}{2}(x-\boldsymbol{\mu} )^T {\boldsymbol{\Sigma}^{-1}}(x-\boldsymbol{\mu})}}]$$
 
 插入估计，将均值（$\boldsymbol{\mu}$）和协方差矩阵（$\boldsymbol{\Sigma}$）的估计带入判别函数，可得到高斯分类器从而对数据进行分类。在协方差矩阵估计为奇异矩阵时，可采用朴素贝叶斯、线性判别函数、投影子空间等方法来解决。
 
