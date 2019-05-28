@@ -33,7 +33,7 @@ Chapter 1, Chapter 2, Chapter 4, Chapter 11.
 
 最常见和广泛的模型选择为高斯模型:
 
-$$p(x|\mu ,\sigma^2)=N(x;\mu ,\sigma^2)={\frac{1}{{\sqrt{2\pi \sigma ^{2}}}}}\,exp(-{\frac{(x-\mu)^{2}}{2\sigma ^{2}}})$$
+$$p(x|\mu ,\sigma^2)=N(x;\mu ,\sigma^2)=\frac{1}{\sqrt{2\pi\sigma^{2}}} exp(-{\frac{(x-\mu)^{2}}{2\sigma ^{2}}})$$
 
 多元正态高斯分布为：
 
