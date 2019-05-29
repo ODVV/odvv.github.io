@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "统计模式识别知识结构"
+title:  "阅读笔记：统计模式识别"
 date:   2019-05-28
 excerpt: "模式识别问题的本质是分类问题，通常分为有监督分类（分类）和无监督分类（聚类）。"
 tag:
 - Pattern Recognition
 - Statistical Pattern Recognition
+- Reading Notes
 ---
 
 ## 文献清单
