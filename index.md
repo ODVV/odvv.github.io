@@ -2,6 +2,6 @@
 layout: home
 ---
 
-# welcome
+# The page you are browsing belongs to:
 
-Nice to meet you.
+Cake Eater, Stefanie Sun's Dumbest Fan, Rick and Morty Season Four Awaits, Silencer, Python Beginner, Machine Learning Newcomers, Matlab User, Javascript/Ubuntu/Ruby/CSS Word Speller
