@@ -18,32 +18,32 @@ tag:
 
 ### [Choir](http://www.adultswim.com/etcetera/choir/)
 
-![](/_posts/images/2019-06-26-mouse-1.jpg)
+![](/images/posts/2019-06-26-mouse-1.jpg)
 
 ### [Elastic Man](http://www.adultswim.com/etcetera/elastic-man/)
 
-![](/_posts/images/2019-06-26-mouse-2.jpg)
+![](/images/posts/2019-06-26-mouse-2.jpg)
 
 ### [Character Soup](http://www.adultswim.com/etcetera/soup/)
 
-![](/_posts/images/2019-06-26-mouse-3.jpg)
+![](/images/posts/2019-06-26-mouse-3.jpg)
 
 ## [拧魔方](http://iamthecu.be/)
 
-![](/_posts/images/2019-06-26-mouse-4.jpg)
+![](/images/posts/2019-06-26-mouse-4.jpg)
 
 ## [银河系漫游指南](http://stars.chromeexperiments.com/)
 
-![](/_posts/images/2019-06-26-mouse-5.jpg)
+![](/images/posts/2019-06-26-mouse-5.jpg)
 
 ## [which finger](https://thatsthefinger.com/)
 
-![](/_posts/images/2019-06-26-mouse-6.jpg)
+![](/images/posts/2019-06-26-mouse-6.jpg)
 
 ## [一点也没用的网站](http://www.uselesssite.net/)
 
-![](/_posts/images/2019-06-26-mouse-7.jpg)
+![](/images/posts/2019-06-26-mouse-7.jpg)
 
 ## [请不要戳破气球](http://www.dontpopit.com/)
 
-![](/_posts/images/2019-06-26-mouse-8.jpg)
+![](/images/posts/2019-06-26-mouse-8.jpg)

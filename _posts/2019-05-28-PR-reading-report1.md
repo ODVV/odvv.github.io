@@ -18,7 +18,7 @@ Chapter 1, Chapter 2, Chapter 4, Chapter 11.
 
 ## 内容简介
 
-![](/_posts/images/2019-05-28-PR-reading-report1-1.jpg)
+![](/images/posts/2019-05-28-PR-reading-report1-1.jpg)
 
 模式识别问题的本质是分类问题，通常分为有监督分类（分类）和无监督分类（聚类）。
 
@@ -76,7 +76,7 @@ $$p(\boldsymbol{x})=\sum_{j=1}^g \pi_j p(\boldsymbol{x};\boldsymbol{\theta}_j)$$
 
 无监督分类的方法中，谱聚类作为基于图论的方法，如下图所示，在参数的空间中各样本按照空间位置划分类。
 
-![](/_posts/images/2019-05-28-PR-reading-report1-3.jpg)
+![](/images/posts/2019-05-28-PR-reading-report1-3.jpg)
 
 谱聚类的主要思想是把所有的样本看做空间中的点，这些点之间可以用边连接起来。距离较远的两个点之间的边权重值较低，而距离较近的两个点之间的边权重值较高，通过对所有数据点组成的图进行切图，让切图后不同的子图间边权重和尽可能的低，而子图内的边权重和尽可能的高，从而达到聚类的目的。
 
