@@ -26,7 +26,7 @@ Yann LeCun 认为 GAN 很可能会给深度学习模型带来新的重大突破�
 
 ![](/images/posts/2019-08-14-2.jpg)
 
-<center><font color=gray size=2>G为生成器，D为判别器，图来自网络</font></center>
+<center><font color='gray' size=2>G为生成器，D为判别器，图来自网络</font></center>
 
 ## 简单实现
 这里基于 Py-Torch 实现的基本GAN的生成器和判别器，来自[git仓库](https://github.com/eriklindernoren/PyTorch-GAN/blob/master/implementations/gan/gan.py)。
