@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Pytorch 减少显存占用"
-date:   2019-09-18
+date:   2019-11-27
 excerpt: "避免 out of Memory，显存爆炸"
 tag:
 - 深度学习
