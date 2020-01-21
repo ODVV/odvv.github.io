@@ -2,7 +2,7 @@
 layout: post
 title:  "投稿时的PDF检测中出现问题的解决方法"
 date:   2020-01-21
-excerpt: "避免 out of Memory，显存爆炸"
+excerpt: "页边距啦，字体嵌入啦，图像格式啦"
 tag:
 - 论文投稿
 - LeTex
