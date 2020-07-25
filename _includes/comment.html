@@ -55,17 +55,17 @@
   <div id="container"></div>
 </section>
 
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<link rel="stylesheet" href="https://hijiangtao.github.io/assets/css/gitment.css">
+<script src="https://hijiangtao.github.io/assets/js/gitment.browser.js"></script>
 <script>
-var gitment = new Gitment({
+var gitment = new Gitalk({
   id: '{{ page.id }}', // 可选。默认为 location.href
   owner: '{{ site.Gitment_owner }}',
+  admin: ['{{ site.Gitment_owner }}'],
   repo: '{{ site.Gitment_repo }}',
-  oauth: {
-    client_id: '{{ site.client_id }}',
-    client_secret: '{{ site.client_secret }}',
-  },
+  clientId: '{{ site.client_id }}',
+  clientSecret: '{{ site.client_secret }}',
+  distractionFreeMode: true
 })
 gitment.render('container')
 </script>
