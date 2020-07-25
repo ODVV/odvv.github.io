@@ -71,7 +71,7 @@ livere: false
 livere_uid: '' # MTAyMC8zNDI2OS8xMDgwNg==
 # Gitment评论 OAuth Application
 Gitment: true
-Gitment_owner: 'ODVV'  # github用户名
+Gitment_owner: 'odvv'  # github用户名
 Gitment_repo: 'odvv.github.io'  # github博客存放的仓库名
 client_id: 'c56662d48d22b0a0a25a'  # 注册 OAuth Application 后获得的 client_id
 client_secret: '3f1d2bc4dde0bca9793705b83be5ef49a62a7806'  # 注册 OAuth Application 后获得的 client_secret
