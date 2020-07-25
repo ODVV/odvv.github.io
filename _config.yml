@@ -1,65 +1,91 @@
-# Site
-title: Not today
-description: what do we say to the god of death
-url: https://odvv.github.io
-logo: halve.png                                       # Site logo
-locale: en_US
+# Site settings 配置站点
+title: "ODVV's Blog"
+description: 'Hey, good to see u.'
+keywords: 'Machine Learning, Transfer Learning, Meta Learning'
+url: 'https://odvv.github.io' # your host
 
-# Left Block Images
-background:
-  homepage: images/home.jpg                           # this image will be shown on homepage's left block
-  post-list: images/unsplash-gallery-image-10.jpg             # this image will be shown on post list page
-  default-post: images/unsplash-gallery-image-11.jpg   # this image will be shown when post's front matter doesn't specify any image
+# nav 中文字符空格：&emsp;
+nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
+  首页: '/'
+  标签: '/tags.html'
+  时间线: '/timeline.html'
+  关于博主: '/about.html'
+  友情链接: '/friendLink.html'
 
-# Jekyll
-permalink:          /:year/:month/:day/:title/
-markdown:           kramdown
-highlighter:        rouge
+# 博主
+author: true
+name: 'ODVV'
+NickName: ''
+webtitle: "ODVV's Notebook"
+bio: 'study in University of Chinese Academy of Sciences (UCAS)'
+about: false
+aboutyou: 'your introduction'
+portraits: '/assets/profile.jpeg' # your portraits image file path
+
+# SNS
+SNS: true
+SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
+  mail: 'weiwei415@mails.ucas.ac.cn'
+#  weixin: '' # 你的微信二维码存放的地址
+#  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
+  github: 'https://github.com/ODVV'
+#  Codepen: ''
+#  weibo: ''
+#  instagram: ''
+#  Twitter: ''
+#  Dribbble: ''
+#  Facebook: ''
+#  Google: ''
+#  zhihu: ''
+#  juejin: ''
+#  twitch: ''
+
+# 分页
+paginate: 5
+paginatepath: ['page:num']
+
+# since
+footer:
+  since: 2018
+
+# Markdown
+markdown: kramdown
 kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-sass:
-  sass_dir:         assets/_sass
-  style:            compressed
+  math_engine: null
+  input: GFM
+# 代码高亮 使用rouge
+highlighter: rouge
+# 代码高亮主题使用pygments主题: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango 任选一个你喜欢的主题名称填在下面的单引号中
+pygmentsTheme: 'default'
 
-# Google Analytics
-# google-analytics: UA-XXXXX-Y
+# 友情链接
+friends:
+  jekyll: 'https://www.jekyll.com.cn/'
 
-# Social Links
-email:             weiwei415@mails.ucas.ac.cn
-#google.plus:        username
-# twitter:            username
-#facebook:           username
-github:             ODVV
-# stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
-#xing:              username
-#instagram:          username
-#lastfm:            username
-#tumblr:            username
-#pinterest:         username
-#foursquare:        username
-#steam:              username
-#dribbble:          username
-#youtube:           username
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
-# behance:           username
+# 评论 最佳体验 在disqus、livere和Gitment之间三选一
+# disqus 评论
+disqus: false
+disqus_url: '' # https://abc.disqus.com/embed.js
+# 来必力评论
+livere: true
+livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
+# Gitment评论 OAuth Application
+Gitment: false
+Gitment_owner: ''  # github用户名
+Gitment_repo: ''  # github博客存放的仓库名
+client_id: ''  # 注册 OAuth Application 后获得的 client_id
+client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
 
-# Gems
-gems:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
+# Share : weibo, qq, wechat, tencent, douban, qzone, linkedin, diandian, facebook, twitter, google
+social-share: true
+social-share-items: ['qq', 'wechat', 'weibo', 'twitter', 'facebook']
 
-# Exclude list
-include: [_pages]
-exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]
+# 百度统计 在baidu-url里填写自己相关的url代码
+baidu: true
+baidu-url: ''
+# 谷歌分析 在google-ID里填写自己在谷歌分析获得的追踪ID
+google: false
+google-ID: ''
+
+# 博客头信息备选颜色（该部分在站点中不充当站点变量，将其写在post的头信息中用来充当页面变量）
+color: rgb(154,133,255) rgb(255,90,90) rgb(255,210,32) rgb(98,170,255)
